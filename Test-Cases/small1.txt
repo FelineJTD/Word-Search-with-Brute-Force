@@ -1,17 +1,17 @@
-E E G S S S I N M I O J
-M F L O T M G P O S F T
-E E F E R O D D N T U V
-E J L A P F R C K V T N
-R E C X R H R K E S O U
-K M B T P I A W Y I L B
-A D A O T G G N L R E F
-T Y Y X E W O X T A J Y
-T I G E R L H L R D V G
-J P X A D N A P E W O D
-L R P F A L L I G A T O
-X P F O K C T C T E D G
-K H Y F D U W N F E W O
-P N F Y W R K S W A G W
+E M U Z K Y Q F W E H M
+L H Y R P T R U Q F F O
+G Y F K A P R V K F B N
+A J K O A M Z E I A N K
+E I G N F T E I G R H E
+W H D E S L Z E G I M Y
+B A L I O N O W R G T A
+T N A H P E L E G K R C
+W L H B M Y B X H O A N
+V T W R Z E W P L B R T
+H H X X A X M E X S E F
+U E K R O T S Y K H Y R
+H K G W R F P A F R W A
+L M N W F W K A D E W M
 
 BEAR
 ELEPHANT
@@ -24,4 +24,4 @@ MONKEY
 PANDA
 STORK
 TIGER
-TOAD
+EAGLE
