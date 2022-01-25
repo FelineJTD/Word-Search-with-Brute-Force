@@ -133,7 +133,7 @@ int main(int argc, char** argv) {
   auto end = sc.now();
   auto timeSpend = static_cast<std::chrono::duration<double>>(end-start);
   // output
-  cout << "Ditemukan " << total << " buah kata.\n";
+  cout << "Ditemukan " << total << "/" << words.size() << " buah kata.\n";
   cout << "Waktu eksekusi program: " << timeSpend.count() << " detik.\n";
   cout << "Total perbandingan huruf: " << cmp << " kali.\n";
   return 0;
