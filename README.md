@@ -50,11 +50,18 @@ URANUS
 VENUS
 ```
 ## Instalasi
-Clone repositori ini dengan command ini pada terminal: `git clone https://github.com/FelineJTD/Word-Search-with-Brute-Force.git`
+Clone repositori ini dengan command ini pada terminal:  
+```
+git clone https://github.com/FelineJTD/Word-Search-with-Brute-Force.git
+```
 
 ## Menjalankan Program
 - Masuk ke dalam folder hasil clone
 - Compile terlebih dahulu program menggunakan g++, kemudian jalankan program dengan nama file txt yang berisi puzzle sebagai argumen. Gunakan command:  
-`g++ main.cpp && ./a.out [NAMA_FILE.txt]`  
+```
+g++ main.cpp && ./a.out [NAMA_FILE.txt]
+```  
 Untuk mencoba menggunakan file sample:  
-`g++ main.cpp && ./a.out sample.txt`
+```
+g++ main.cpp && ./a.out sample.txt
+```
