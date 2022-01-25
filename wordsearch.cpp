@@ -31,7 +31,7 @@ void read_file(string filename, vector<vector<char>>& board, vector<string>& wor
   }
 }
 
-void check_surrounding(int i, int j, vector<vector<char>> board, string word, int &cmp) {
+void check_surrounding(int i, int j, vector<vector<char>> board, string word, int &cmp, int &total) {
   bool found = false;
   int m = board.size();
   int n = board[0].size();
@@ -44,12 +44,14 @@ void check_surrounding(int i, int j, vector<vector<char>> board, string word, in
           found = true;
           for (int letter=1; letter<word.size(); letter++) {
             cmp += 1;
+            //cout << board[i+(row*letter)][j+(column*letter)] << "\n";
             if (board[i+(row*letter)][j+(column*letter)] != word[letter]) {
               found = false;
               break;
             }
           }
           if (found) {
+            total += 1;
             char solution[m][n];
             for (int x=0; x<m; x++) {
               for (int y=0; y<n; y++) {
@@ -83,6 +85,7 @@ int main(int argc, char** argv) {
   bool found;
   int m, n;
   int cmp = 0;
+  int total = 0;
 
   /* ALGORITMA */
   // read file
@@ -101,7 +104,7 @@ int main(int argc, char** argv) {
         // check first letter of every word
         if (curr_char == word[0]) { // found a match
           cmp += 1;
-          check_surrounding(i, j, board, word, cmp);
+          check_surrounding(i, j, board, word, cmp, total);
         }
       }
     }
@@ -110,6 +113,7 @@ int main(int argc, char** argv) {
   auto end = sc.now();
   auto timeSpend = static_cast<std::chrono::duration<double>>(end-start);
   // output
+  cout << "Ditemukan " << total << " buah kata.\n";
   cout << "Waktu eksekusi program: " << timeSpend.count() << " detik.\n";
   cout << "Total perbandingan huruf: " << cmp << " kali.\n";
   return 0;

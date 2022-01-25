@@ -1,0 +1,24 @@
+D P K L S Z H C S S P M N H P
+J V M A G V W B K R N H Q A P
+U T U P A O L X O U M Y D S C
+H X A V A J L L W B Y Z M K M
+Q L G C C N O A X F D Y I E D
+N N V K N G W L N H L H J L C
+T Q D W X O J E D G Q Z K L B
+R A W K R V H J Q O H L F B F
+R K A R E O L T V V G H M D V
+D I C Z X P P F Y T O C J E T
+W S Z F G Z U T L P U K U H M
+R S I L I N K G E V T Y W B P
+C W V L Q A M L Y L X B R N Q
+V O N R V V X O W L B R H U I
+V U D Y Y G I Y U B A Y Z V B
+
+CPP
+CSS
+GOLANG
+HASKELL
+HTML
+JAVA
+PROLOG
+PYTHON
